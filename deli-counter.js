@@ -63,15 +63,15 @@ function nowServing(array){     //This function is returning the first customer 
 
 // 2. Example Usage
 
- const katzDeli = ["ada","carl"]
+ //const katzDeli= []
 
-console.log(takeANumber(katzDeli, "Ada"))//=> Welcome, Ada. You are number 1 in line.
+//(takeANumber(katzDeli, "Ada"))//=> Welcome, Ada. You are number 1 in line.
 //(takeANumber(katzDeli, "Grace")) //=> Welcome, Grace. You are number 2 in line.
 //(takeANumber(katzDeli, "Kent")) //=> Welcome, Kent. You are number 3 in line.
  
-console.log(line(katzDeli)) //=> "The line is currently: 1. Ada 2. Grace 3. Kent"
+//(line(katzDeli)) //=> "The line is currently: 1. Ada 2. Grace 3. Kent"
 
-console.log(nowServing(katzDeli))//=> "Currently serving Ada."
+//(nowServing(katzDeli))//=> "Currently serving Ada."
 
 // line(katzDeli) //=> "The line is currently: 1. Grace 2. Kent"
 
